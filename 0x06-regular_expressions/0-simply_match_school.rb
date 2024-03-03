@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-# Check if the argument matches the regular expression /School/
-if ARGV[0] =~ /School/
-  # If it matches, print the matched string
+# Check if the argument contains the word "School"
+if ARGV[0].match?(/\bSchool\b/)
+  # If it contains the word "School", print the matched string
   puts ARGV[0]
 else
-  # If it doesn't match, print nothing
+  # If it doesn't contain the word "School", print nothing
   puts ""
 end
