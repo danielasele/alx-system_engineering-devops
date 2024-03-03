@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # Check if the argument matches the regular expression pattern
-if ARGV[0].match?(/hb(t){1,}n/)
+if ARGV[0].match?(/^hbt{1,}n$/)
   # If it matches, print the matched string
   puts ARGV[0]
 else
