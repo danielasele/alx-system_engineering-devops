@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# This script presents questions related to the OSI model
+
+# Prompt the user with the first question and its options
+echo "What is the OSI model?"
+echo "1. Set of specifications that network hardware manufacturers must respect"
+echo "2. The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology"
+echo "3. The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology"
+
+# Read user input for the first question
+read -p "Your answer (enter the number): " answer1
+
+# Compare the user's answer with the correct answer and provide feedback
+if [ "$answer1" == "2" ]; then
+    echo "Correct! The OSI model is a conceptual model."
+else
+    echo "Incorrect. The correct answer is: The OSI model is a conceptual model."
+fi
+
+# Prompt the user with the second question and its options
+echo ""
+echo "How is the OSI model organized?"
+echo "1. Alphabetically"
+echo "2. From the lowest to the highest level"
+echo "3. Randomly"
+
+# Read user input for the second question
+read -p "Your answer (enter the number): " answer2
+
+# Compare the user's answer with the correct answer and provide feedback
+if [ "$answer2" == "2" ]; then
+    echo "Correct! The OSI model is organized from the lowest to the highest level."
+else
+    echo "Incorrect. The correct answer is: From the lowest to the highest level."
+fi`
