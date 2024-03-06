@@ -8,7 +8,7 @@ echo "2. The OSI model is a conceptual model that characterizes the communicatio
 echo "3. The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology"
 
 # Read user input for the first question
-read -p "Your answer (enter the number): " answer1
+read -p "Your answer (enter the number): " answer2
 
 # Compare the user's answer with the correct answer and provide feedback
 if [ "$answer1" == "2" ]; then
